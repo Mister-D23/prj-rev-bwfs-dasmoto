@@ -1,29 +1,36 @@
-html {
+html, span {
   font-family: Helvetica;
-}
-h1{
-  font-size: 100px;
   font-weight: bold;
+}
+
+h1 {
+  font-size: 100px;
   color: khaki;
   text-align: center;
   background-image: url('../pattern.jpg');
 }
-u {
-  text-decoration: none;
-  font-weight: bold;
-  color: blue;
-}
+
 div h2 {
   font-size: 32px;
-  font-weight: bold;
   color: white;
 }
+
+p {
+    font-weight: normal;
+}
+
+span {
+  color: blue;
+}
+
 .brushes h2 {
   background-color: mediumspringgreen;
 }
+
 .frames h2{
   background-color: lightcoral;
 }
+
 .paint h2 {
   background-color: skyblue;
 }
